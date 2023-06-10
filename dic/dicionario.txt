@@ -1,0 +1,60 @@
+<!-- 
+	Projeto 01 / De #F016 até #F031
+  src = origem (localização) 
+  alt = alternativo a imagem, para pessoas com acessibilidade 
+  span = mantem em line e pode mudar cores
+  rel = relação
+  shift + (baixo) / alt + onde vc quer mover
+  link:
+  font-size = tamanho da fonte
+  line-height = altura da linha
+  font-weight = peso dessa fonte: bold = negrito
+  width = largura
+  margin: auto = prenche o espaço
+  br = break (quebra)
+  shift + alt + baixo = dulicação da linha anterior
+  &nbsp; = espaços
+  bottom = inferior
+  .line = class
+  position = posicionamneto
+  target="_blank" = abrir uma nova janela
+  control + a = Seleciona tudo
+
+
+  /*
+
+margin: 0 auto 72px;
+
+shorthand
+
+  mesma coisa
+  margin-top: 0;
+  margin-right: auto;
+  margin-bottom: 72px;
+  margin-left: auto;
+*/
+
+/* 
+  margin: 0 32px 72px 48px;
+  0 = margin-top, 
+  32px = margin-ritgh, 
+  72px = margin-bottom e 
+  48px = margin-left
+*/
+
+-->
+
+
+
+
+Pegue o "a" que anteriror a ele tem um "a" 
+
+  #footer a + a {
+  margin-left: 28px;
+}
+
+
+
+pode usar varios class
+mas não é recomendado usar varios ids
+<!--  <div class="line"></div>  --> 
